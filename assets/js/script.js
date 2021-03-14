@@ -8,7 +8,6 @@ var hour = $('.hour');
 // Setting variable to equal the current hour
 var time = moment().format("HH");
 
-
 // Setting variables for beginning of day to before work hours
 var midnight = moment('00:00:00','HH:mm:ss').format('HH');
 var startHour = moment('08:59:00','HH:mm:ss').format('HH');
