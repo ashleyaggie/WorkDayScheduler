@@ -6,7 +6,7 @@ In this assignment, we were given some HTML code already in place and told to ma
 
 I had some trouble with making the boxes change color to match the current time at first, but once I realized I could use number comparing operators after I converted the times to the 24 hour standard, it was easier to work with.
 
-My biggest struggle was making the local storage work for me with the multiple options and needing to be able to re-access them and display them in only certain text boxes. I saw a repo (ewirtz3/work-day-scheduler) that had a solution that worked, so I modified their code to work with mine. I feel like there is probably a way to make it more streamlined for pulling the information from local storage to display on the page, but I couldn't think of a good answer.
+My biggest struggle was making the local storage work for me with the multiple options and needing to be able to re-access them and display them in only certain text boxes. I feel like there is probably a way to make it more streamlined for pulling the information from local storage to display on the page, but I couldn't think of a good answer.
 
 [Deployed Website](https://ashleyaggie.github.io/WorkDayScheduler)
 
@@ -38,7 +38,7 @@ THEN each timeblock is color coded to indicate whether it is in the past, presen
 
     * Completed using moment.js and setting each time to a 24 hour value
 
-    * Depending on whether the value was before or after the current moment time, the script gives each block the corresponding class.
+    * The script gives each block a class that corresponds to whether it is before or after current time.
 
 WHEN I click into a timeblock
 
@@ -58,7 +58,7 @@ WHEN I refresh the page
 
 THEN the saved events persist
 
-    * Completed using localStorage.getItem and DOM manipulation to set the values equal to the stored information.
+    * Used localStorage.getItem and DOM manipulation to set the values equal to the stored information.
 
 
 ## Credits
