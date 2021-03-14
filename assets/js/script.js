@@ -6,7 +6,7 @@ var item = $('.event');
 var hour = $('.hour');
 
 // Setting variable to equal the current hour
-var time = moment('8am','h:sa').format("HH");
+var time = moment().format("HH");
 
 
 // Setting variables for beginning of day to before work hours
