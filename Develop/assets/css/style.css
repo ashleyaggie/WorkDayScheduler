@@ -76,3 +76,19 @@ textarea{
   color: black;
   transition: all .3s ease-in-out;
 }
+
+/* Added button to remove all Events and made similar to saveBtn */
+.clearBtn {
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: none;
+  border-radius: 15px;
+  background-color: #ff6961;
+  color: white;
+}
+
+.clearBtn:hover {
+  color: black;
+  transition: all .3s ease-in-out;
+}
