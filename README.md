@@ -2,7 +2,7 @@
 
 ## Description
 
-In this assignment, we were given some HTML code already in place and told to make a event planner with it as the base. Specifically, we are using moment.js to work with current time and make the event planner update itself to reflect the current time. This was good practice for using moment.js and seeing its limitations and capabilities. It also was an interesting exercise in working with localStorage to make it populate information on the screen and have it persist across page reload. I took a little liberty and added a button to clear all the events in local storage and on the page for easier user interaction.
+In this assignment, we were given some HTML code already in place and told to make an event planner with it as the base. Specifically, we are using moment.js to work with current time and make the event planner update itself to reflect the current time. This was good practice for using moment.js and seeing its limitations and capabilities. It also was an interesting exercise in working with localStorage to make it populate information on the screen and have it persist across page reload. I took a little liberty and added a button to clear all the events in local storage and on the page for easier user interaction.
 
 I had some trouble with making the boxes change color to match the current time at first, but once I realized I could use number comparing operators after I converted the times to the 24 hour standard, it was easier to work with.
 
